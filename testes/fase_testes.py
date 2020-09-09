@@ -113,7 +113,7 @@ class FaseTestes(TestCase):
 
         self.assertEqual(EM_ANDAMENTO, fase.status())
 
-        for ator in porcos + passaros:
+        for ator in _porcos + _passaros:
             ator.status = DESTRUIDO
         self.assertEqual(VITORIA, fase.status())
 
