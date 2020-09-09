@@ -6,6 +6,7 @@ from atores import ATIVO
 VITORIA = 'VITORIA'
 DERROTA = 'DERROTA'
 EM_ANDAMENTO = 'EM_ANDAMENTO'
+ATIVO = 'ATIVO'
 
 
 class Ponto():
