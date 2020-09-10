@@ -6,7 +6,7 @@ from atores import ATIVO
 VITORIA = 'VITORIA'
 DERROTA = 'DERROTA'
 EM_ANDAMENTO = 'EM_ANDAMENTO'
-ATIVO = 'ATIVO'
+
 
 
 class Ponto():
@@ -82,8 +82,7 @@ class Fase():
         else:
             return DERROTA
 
-
-    def lancar(self, angulo, tempo):
+     def lancar(self, angulo, tempo):
         """
         Método que executa lógica de lançamento.
 
@@ -115,13 +114,13 @@ class Fase():
 
     def _possui_porco_ativo(self):
         for porco in self._porcos:
-            if porco.status == ATIVO
+            if porco.status == ATIVO:
                 return True
             return False
 
     def _possui_passaro_ativo(self):
-        for passaros in self._passaros:
-            if passaros.status == ATIVO
+        for passaro in self._passaros:
+            if passaro.status == ATIVO:
                 return True
             return False
 
