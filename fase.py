@@ -125,3 +125,5 @@ class Fase():
             if passaro.status == ATIVO:
                 return True
         return False
+  sdsd
+
