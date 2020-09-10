@@ -211,4 +211,3 @@ class FaseTestes(TestCase):
         self.assertEqual(30, passaro.intervalo_colisao)
         self.assertEqual(30, porco.intervalo_colisao)
 
-asas
